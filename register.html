@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+</head>
+<body>
+<h1>　使用者註冊</h1>
+
+<form>
+   <p>帳號　　　<input name="account" type="text" placeholder="請輸入您的帳號">
+   <p>密碼　　　<input name="password" type="password" minlength="6">
+   <p>電子郵件　<input name="email" type="email" placeholder="請輸入您的電子郵件">
+   <p>生日　　　<input name="birth" type="date">
+   <p>性別　　　
+       <input name="gender" type="radio" value="male" checked>男
+       <input name="gender" type="radio" value="female">女
+       <input name="gender" type="radio" value="other">其他
+    <p>喜好　　　
+       <input name="prefer" type="checkbox" value="ball">打球
+       <input name="prefer" type="checkbox" value="games">打電動
+       <input name="prefer" type="checkbox" value="shopping">購物     
+       <input name="prefer" type="checkbox" value="other">其他
+    <p>年級　　　
+    <select name="grade">
+        <option value="first">大一</option>
+        <option value="second">大二</option>
+        <option value="third">大三</option>
+        <option value="forth">大四</option>
+        <option value="other">其他</option>
+    </p>
+    </select>
+
+	<p>　　　　　
+	<input type="submit" value="送出">
+	<input type="reset" value="重設">
+	</p>
+</body>
+</html>
